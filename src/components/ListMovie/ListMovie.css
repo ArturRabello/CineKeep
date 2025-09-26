@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer components {
+  .movie-list {
+    @apply grid place-self-start gap-20 p-5 
+           bg-[#121212] rounded-2xl overflow-auto w-[320px] h-[540px]
+           grid-cols-1
+           sm:grid-cols-3 sm:min-h-[510px] sm:min-w-[768px] sm:gap-2
+           md:grid-cols-3 md:min-h-[510px] md:min-w-[768px] 
+           lg:grid-cols-4 lg:h-[600px] lg:w-[850px];
+  }
+}

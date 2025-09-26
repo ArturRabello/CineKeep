@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+    .movie-status {
+        @apply  items-center gap-2 bg-[#121212] rounded-2xl pt-5 
+                sm:max-h-[540px] sm:gap-2
+                md:max-h-[540px]  
+                lg:max-h-[600px];
+    }
+}
