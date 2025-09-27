@@ -23,6 +23,10 @@ O desenvolvimento dessa aplicação, me permitiu aprimorar as minhas habilidades
 
 A ideia desse projeto foi simular uma pequena arquitetura de microsserviços, onde cada API é independente e autônoma, ou seja, consegue viver e operar sem depender diretamente dos outros serviços.
 
+## Diagrama
+
+![alt text](./src/assets/diagrama.png)
+
 ## 🖥️ Interface
 
 ### 🔑 Login
@@ -36,9 +40,9 @@ A ideia desse projeto foi simular uma pequena arquitetura de microsserviços, on
 ## 🔗 APIs
 Para o funcionamento da aplicação, são utilizados os seguintes serviços:
 
-- **[AuthService](https://github.com/ArturRabello/Listation-BackEnd)** → responsável pela autenticação e gerenciamento de usuários. 
-- **[UserMovieService]()** → responsável por armazenar e gerenciar os filmes avaliados/salvos pelos usuários.
-- **[API OMDB]()** → fornece os dados dos filmes. 
+- **[AuthService](https://github.com/ArturRabello/AuthService)** → responsável pela autenticação e gerenciamento de usuários. 
+- **[UserMovieService](https://github.com/ArturRabello/UserMovieService)** → responsável por armazenar e gerenciar os filmes avaliados/salvos pelos usuários.
+- **[API OMDB](https://www.omdbapi.com/)** → fornece os dados dos filmes. 
 
 
 ## 🚀 Tecnologias
@@ -52,13 +56,13 @@ Para o funcionamento da aplicação, são utilizados os seguintes serviços:
 
 ## 🛠️ Como utilizar 
 ### 1️⃣ É necessário que as apis sejam iniciadas
-- [AuthService](https://github.com/ArturRabello/Listation-BackEnd)
-- [UserMovieService]()
-- [API OMDB]()
+- [AuthService](https://github.com/ArturRabello/AuthService)
+- [UserMovieService](https://github.com/ArturRabello/UserMovieService)
+- [API OMDB](https://www.omdbapi.com/)
 
 ### 2️⃣Clone o repositório:
 ```bash
-git clone 
+git clone https://github.com/ArturRabello/CineKeep.git
 ```
 ### 3️⃣ Configure o .env
 
