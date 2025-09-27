@@ -206,6 +206,23 @@ services:
       - "3000:80"
 ```
 
+#### Construir a imagem e subir o container
+
+**Controi a imagem**
+```
+docker compose build
+```
+
+**Cria containers (se não existirem) e sobe eles. Pode rebuildar imagens se necessário.**
+
+```
+docker compose up
+```
+
+**Inicia o container**
+```
+docker compose start
+```
 
 ## 🔍 funcionalidades
 - **🔐 Autenticação com JWT:** O sistema possui um processo de login que utiliza JSON Web Token (JWT) para garantir segurança e confiabilidade. Após a autenticação, um cookie é gerado e enviado ao navegador, permitindo que o usuário navegue de forma autenticada durante toda a sessão.
